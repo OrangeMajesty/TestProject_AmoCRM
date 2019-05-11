@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Roboto-m; 
+    src: url(fonts/roboto-medium.ttf);
+}
+body {
+    font-family: Roboto-m;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+main {
+	color: #37414e;
+}
+label {
+    font-weight: 600;
+    font-size: larger;
+}
+
+input.form-control {
+    height: 50px;
+}
+
+textarea.form-control,
+input.form-control {
+    color: #d7d7d7;
+    background-color: #2d3136;
+    border: #4b4f53 solid 1px;
+}
+
+textarea.form-control:focus,
+input.form-control:focus {
+    color: #d7d7d7;
+    background-color: #2d3136;
+    border: #743538 solid 1px;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+.bg {
+	background: #2d3136;
+	color: #d7d7d7;
+}
+.bg-footer {
+    background: #2a2d33;
+}
+
+.logo {	
+    width: 12rem;
+}
+.font-lg {
+    font-size: x-large;
+    font-weight: 600;
+}
+    
+.card {
+    border: unset;
+    border-radius: 0;
+    min-height: 17rem;
+}
+.card-comment h4 {
+    color: white;
+}
+.card-comment .bg-card-title  {
+    background: #4b596c;
+}
+.card-comment:nth-child(2n) .bg-card-title {
+    background: #58ad52;
+}
+.card-comment:nth-child(2n) .card-body {
+    background-color: #deebde;
+}
+.card-comment:nth-child(2n) .card-email {
+    color: #58ad52;
+}
+.card-comment:nth-child(2n) .card-comment-text {
+    color: #768275;
+}
+.card-comment .card-body {
+    background-color: #e9eef3;
+    border: unset; 
+    border-radius: 0; 
+}
+.card-comment-text {
+    text-align: center;
+    color: #767582;
+    font-size: x-large;
+}
+.card-email {
+    color: #6d737b;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.contact-logo {
+    width: 12rem;
+    margin: 0 auto;
+    display: flex;
+}
+
+.form-group label::after {
+	font-size: 20px;
+    content: '*';
+    padding-left: 10px;
+    color: #be393b;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+}
+.social a {
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    background: #2f3338;
+    padding: 3px;
+    border: #454648 solid 2px;
+    border-radius: 100%;
+    color: #656566;
+}
+.social a:hover {
+    color: #545454;
+}

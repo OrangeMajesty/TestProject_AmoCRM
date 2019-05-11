@@ -1,0 +1,8 @@
+<div class="container">
+
+  <%= render "form.html" %>
+  <hr>
+  <ul id="check-list" class="check-list">
+    
+  </ul>
+</div>

@@ -1,0 +1,5 @@
+<div class="form-froup">
+	<label for="inn">Введите ИНН</label>
+	<input type="text" class="col-9 mr-sm-5" id="inn">
+	<button id="submit" class="btn btn-primary col-2 m-0">Проверить</button>
+</div>
